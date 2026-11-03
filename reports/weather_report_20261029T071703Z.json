@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-10-29T07:17:03.177749+00:00",
+  "period_days": 30,
+  "statistics": {
+    "cities_tracked": 5,
+    "total_observations": 10,
+    "pipeline_runs": 10,
+    "failed_runs": 0
+  },
+  "latest_weather": [
+    {
+      "city_name": "Bengaluru",
+      "country_code": "IN",
+      "observed_at": "2026-10-29T07:08:17Z",
+      "temperature_c": 27.53,
+      "humidity_percent": 47,
+      "pressure_hpa": 1012.0,
+      "wind_speed_mps": 3.73,
+      "weather_main": "Clear",
+      "weather_description": "clear sky"
+    },
+    {
+      "city_name": "Chennai",
+      "country_code": "IN",
+      "observed_at": "2026-10-29T07:14:57Z",
+      "temperature_c": 34.64,
+      "humidity_percent": 55,
+      "pressure_hpa": 1008.0,
+      "wind_speed_mps": 2.49,
+      "weather_main": "Clear",
+      "weather_description": "clear sky"
+    },
+    {
+      "city_name": "Delhi",
+      "country_code": "IN",
+      "observed_at": "2026-10-29T07:03:01Z",
+      "temperature_c": 26.43,
+      "humidity_percent": 61,
+      "pressure_hpa": 1017.0,
+      "wind_speed_mps": 2.69,
+      "weather_main": "Clouds",
+      "weather_description": "broken clouds"
+    },
+    {
+      "city_name": "Kolkata",
+      "country_code": "IN",
+      "observed_at": "2026-10-29T07:11:38Z",
+      "temperature_c": 25.91,
+      "humidity_percent": 89,
+      "pressure_hpa": 1013.0,
+      "wind_speed_mps": 1.38,
+      "weather_main": "Rain",
+      "weather_description": "moderate rain"
+    },
+    {
+      "city_name": "Mumbai",
+      "country_code": "IN",
+      "observed_at": "2026-10-29T07:03:17Z",
+      "temperature_c": 28.99,
+      "humidity_percent": 59,
+      "pressure_hpa": 1009.0,
+      "wind_speed_mps": 2.97,
+      "weather_main": "Clear",
+      "weather_description": "clear sky"
+    }
+  ],
+  "historical_summary": [
+    {
+      "city_name": "Chennai",
+      "country_code": "IN",
+      "observations": 2,
+      "avg_temperature_c": 33.99,
+      "min_temperature_c": 33.33,
+      "max_temperature_c": 34.64,
+      "avg_humidity_percent": 53.0,
+      "avg_wind_speed_mps": 5.56
+    },
+    {
+      "city_name": "Mumbai",
+      "country_code": "IN",
+      "observations": 2,
+      "avg_temperature_c": 29.29,
+      "min_temperature_c": 28.99,
+      "max_temperature_c": 29.59,
+      "avg_humidity_percent": 49.0,
+      "avg_wind_speed_mps": 1.89
+    },
+    {
+      "city_name": "Kolkata",
+      "country_code": "IN",
+      "observations": 2,
+      "avg_temperature_c": 29.16,
+      "min_temperature_c": 25.91,
+      "max_temperature_c": 32.41,
+      "avg_humidity_percent": 77.0,
+      "avg_wind_speed_mps": 1.53
+    },
+    {
+      "city_name": "Delhi",
+      "country_code": "IN",
+      "observations": 2,
+      "avg_temperature_c": 27.57,
+      "min_temperature_c": 26.43,
+      "max_temperature_c": 28.7,
+      "avg_humidity_percent": 47.0,
+      "avg_wind_speed_mps": 1.98
+    },
+    {
+      "city_name": "Bengaluru",
+      "country_code": "IN",
+      "observations": 2,
+      "avg_temperature_c": 27.38,
+      "min_temperature_c": 27.23,
+      "max_temperature_c": 27.53,
+      "avg_humidity_percent": 44.0,
+      "avg_wind_speed_mps": 5.24
+    }
+  ],
+  "alerts": [
+    {
+      "type": "high_humidity",
+      "city": "Kolkata",
+      "value": 89,
+      "message": "Kolkata: humidity exceeds threshold"
+    }
+  ]
+}

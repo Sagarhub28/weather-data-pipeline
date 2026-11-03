@@ -1,0 +1,6 @@
+city_name,country_code,observations,avg_temperature_c,min_temperature_c,max_temperature_c,avg_humidity_percent,avg_wind_speed_mps
+Chennai,IN,4,34.38,33.33,34.79,53.75,4.48
+Mumbai,IN,4,29.17,28.99,29.59,55.0,3.22
+Bengaluru,IN,4,27.78,27.23,28.2,44.75,4.43
+Kolkata,IN,4,27.38,25.3,32.41,82.75,1.28
+Delhi,IN,4,27.02,26.43,28.7,48.0,2.28
